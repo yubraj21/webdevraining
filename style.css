@@ -1,0 +1,47 @@
+body{
+    background-image: url('./images/more-leaves.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+.project {
+      text-transform: lowercase;
+}
+
+* {
+    color : yellowgreen;
+    border: 1px solid red;
+    box-sizing:border-box;
+}
+
+.success-message {
+    border: 20px solid red;
+    padding: 50px;
+    margin: 150px;
+}
+.error-message {
+    border: 2px solid green;
+}
+
+.message{
+    color: salmon;
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+}
+
+.message.success-message {
+    border : 2px solid goldenrod;
+}
+
+header .item{
+    text-decoration: underline;
+}
